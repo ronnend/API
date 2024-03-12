@@ -4,5 +4,5 @@ def print_triangle(height):
         stars = '*' * i
         print(spaces + stars)
 
-height = 10
+height = 500
 print_triangle(height)
