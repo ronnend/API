@@ -64,6 +64,22 @@ class Library:
                 results.append(item)
         return results
 
+    def search_library(self):
+        search_type = input("Enter 'M' to search for members, 'I' to search for items: ").strip().upper()
+        query = input("Enter your search question: ").strip()
+        if search_type == 'M':
+            results = self.search_members(query)
+            print("Search results for members:")
+            for member in results:
+                print(f"Name: {member.name}, ID: {member.member_id}")
+        elif search_type == 'I':
+            results = self.search_items(query)
+            print("Search results for items:")
+            for item in results:
+                print(f"Title: {item.title}, ID: {item.item_id}")
+        else:
+            print("Invalid search type.")
+
 if __name__ == "__main__":
     library = Library()
 
@@ -87,10 +103,4 @@ if __name__ == "__main__":
     else:
         print("Item not found in borrowed items")
 
-    search_results_members = library.search_members('John')
-    for member in search_results_members:
-        print(f"Found member: {member.name}, ID: {member.member_id}") 
-
-    search_results_items = library.search_items('Programming')
-    for item in search_results_items:
-        print(f"Found item: {item.title}, ID: {item.item_id}") 
+    library.search_library()
