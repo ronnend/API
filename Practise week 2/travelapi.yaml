@@ -1,8 +1,11 @@
 openapi: 3.0.0
 info:
   title: Travel Booking API
-  description: 'API for managing travel bookings and destinations'
-
+  description: API for managing travel bookings and destinations
+  version: 1.0.0
+servers:
+  - url: http://localhost:8000
+    description: Local server
 paths:
   /holidays:
     get:
@@ -174,3 +177,4 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Booking'
+

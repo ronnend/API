@@ -1,0 +1,140 @@
+Bookings for the current year:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Bookings for John Doe:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): Search results:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Enter client name to search bookings (type 'exit' to quit): Search results:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: daan
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): Search results:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: f& "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: sqlite3 --version
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): Search results:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Enter client name to search bookings (type 'exit' to quit): Search results:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): Search results:
+Booking ID: 1
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:19:32
+Check-out Date: 2024-04-15 12:19:32
+Created At: 2024-04-12 12:19:32
+
+Booking ID: 2
+Client: John Doe
+Hotel: Hotel ABC
+Check-in Date: 2024-04-12 12:27:05
+Check-out Date: 2024-04-15 12:27:05
+Created At: 2024-04-12 12:27:05
+
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): No bookings found for the client: & "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/.venv/Scripts/python.exe" "c:/Users/Beheerder/Documents/Semester 2 CB/PR/Code/505559-danielleronnen-feb24-python101/Practise week 6/databasetravel.py"
+Enter client name to search bookings (type 'exit' to quit): 
