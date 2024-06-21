@@ -1,16 +1,18 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
+from marshmallow_sqlalchemy import SQLAlchemyAutoSchema
 import os
 
 app = Flask(__name__)
 
+# Database configuration
 app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://daan:welkom0162@daandb.lan/webshop'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
 
-
+# Product model
 class Product(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False)
@@ -21,34 +23,39 @@ class Product(db.Model):
     category_id = db.Column(db.Integer, db.ForeignKey('category.id'), nullable=False)
     tags = db.Column(db.String(200), nullable=True)
 
+# Category model
 class Category(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), unique=True, nullable=False)
     description = db.Column(db.String(200), nullable=True)
-    products = db.relationship('Product', backref='category', lazy=True)
 
-
-class ProductSchema(ma.SQLAlchemyAutoSchema):
+# Product schema
+class ProductSchema(SQLAlchemyAutoSchema):
     class Meta:
         model = Product
         load_instance = True
 
-class CategorySchema(ma.SQLAlchemyAutoSchema):
+# Category schema
+class CategorySchema(SQLAlchemyAutoSchema):
     class Meta:
         model = Category
         load_instance = True
 
+# Initialize schemas
 product_schema = ProductSchema()
 products_schema = ProductSchema(many=True)
 category_schema = CategorySchema()
 categories_schema = CategorySchema(many=True)
 
+# Routes
 
+# Get all products
 @app.route('/products', methods=['GET'])
 def get_products():
     products = Product.query.all()
     return products_schema.jsonify(products)
 
+# Add new products
 @app.route('/products', methods=['POST'])
 def post_products():
     new_products = request.json
@@ -58,6 +65,7 @@ def post_products():
     db.session.commit()
     return jsonify({"message": "Products posted successfully"}), 200
 
+# Search products based on criteria
 @app.route('/products/search', methods=['POST'])
 def search_products():
     criteria = request.json
@@ -75,11 +83,13 @@ def search_products():
     products = query.all()
     return products_schema.jsonify(products)
 
+# Get all categories
 @app.route('/categories', methods=['GET'])
 def get_categories():
     categories = Category.query.all()
     return categories_schema.jsonify(categories)
 
+# Add new category
 @app.route('/categories', methods=['POST'])
 def post_category():
     new_category = category_schema.load(request.json, session=db.session)
@@ -87,6 +97,7 @@ def post_category():
     db.session.commit()
     return jsonify({"message": "Category created successfully"}), 201
 
+# Error handling
 @app.errorhandler(500)
 def internal_error(error):
     return jsonify({"message": "Internal Server Error"}), 500
